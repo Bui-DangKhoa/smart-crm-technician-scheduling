@@ -1,0 +1,18 @@
+# Dependencies / build
+node_modules/
+target/
+build/
+venv/
+__pycache__/
+
+# Bí mật và log
+.env
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Dữ liệu lớn (chỉ commit mẫu nhỏ)
+data/*.csv
+!data/sample/
