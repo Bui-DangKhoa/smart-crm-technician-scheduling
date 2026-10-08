@@ -143,7 +143,7 @@ Luồng nghiệp vụ đã chọn: **L4 – Phân công kỹ thuật viên và l
 
 ### 2.1. Use Case Diagram
 
-![Use Case Diagram](docs/usecase.png)
+![Use Case Diagram](docs/usecase.drawio)
 
 > Nguồn: `docs/usecase.drawio`. Các actor: Quản lý trung tâm, Kỹ thuật viên, Khách hàng, Hệ thống nhắc hạn.
 
