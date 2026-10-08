@@ -1,0 +1,9 @@
+# Nhật ký sử dụng công cụ AI
+
+| Công cụ | Dùng vào việc gì | Áp dụng ở phần nào | Đã kiểm chứng thế nào |
+|---|---|---|---|
+| Gemini Notebook | Gợi ý cấu trúc bản SRS rút gọn và rà soát câu từ các User Story theo khuôn chuẩn INVEST. | Mục 1 & 3 (SRS)<br>`docs/srs.md` | Đọc lại từng User Story; tự điều chỉnh vế "để &lt;giá trị&gt;" gắn trực tiếp với nỗi đau V2, V3 trong case study Mekong Mobile; tự viết bổ sung 10 tiêu chí Given–When–Then cho luồng chính và luồng ngoại lệ. |
+| Gemini Notebook | Gợi ý mã PlantUML cho Sơ đồ Use Case và Sơ đồ Kiến trúc phân lớp 4 tầng. | Mục 2 & Thành phần 3<br>`docs/usecase.drawio`<br>`docs/architecture.drawio` | Tự sửa hướng mũi tên `<<extend>>` hướng về Use Case cơ sở; chuẩn hóa thuật ngữ "phiếu bảo hành"; tự bổ sung khung Legend chú thích ký hiệu và vùng NGOÀI PHẠM VI theo quy định. |
+| Gemini Notebook | Gợi ý cú pháp SQL DDL Skeleton cho 6 bảng CSDL quan hệ chuẩn 3NF và cú pháp DBML. | Thành phần 4 (ERD)<br>`docs/erd.drawio`<br>`docs/schema.sql` | Kiểm tra đối chiếu nguyên tắc chuẩn hóa 3NF; tự thêm các ràng buộc CHECK (proficiency từ 1–5, trạng thái vòng đời QT-06); tự khai báo và giải thích 3 chỉ mục INDEX gắn với NFR. |
+| Không dùng AI | Phân tích bài toán, xác định các quy tắc nghiệp vụ (QT-04, QT-07, QT-08) và lập luận 3 quyết định kiến trúc gắn với NFR. | Mục 4 & 5 (SRS)<br>Thành phần 3 (Lập luận NFR) | Tự thiết lập các ngưỡng số đo được (1,5s / 5.000 bản ghi; 500ms / 50 req) và tự cân nhắc, viết 3 câu lập luận đánh đổi kiến trúc theo đúng khuôn mẫu học phần. |
+| Gemini Notebook, Claude | Gợi ý và phác thảo Wireframe 3 màn hình và lập Bảng đối chiếu truy vết hai chiều (Wireframe ↔ ERD ↔ SRS). | Thành phần 5 (Wireframe)<br>`docs/wireframe.png` | Tự thiết kế bố cục trên Draw.io; tự kiểm tra đảm bảo 100% các trường dữ liệu trên màn hình đều tồn tại trong file `schema.sql` và Bảng thuật ngữ SRS. |
